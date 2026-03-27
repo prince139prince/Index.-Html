@@ -1,0 +1,9 @@
+/* src/components/MainLayout.css */
+.main-layout {
+    position: relative;
+    min-height: 100vh;
+}
+
+.screen-content {
+    padding-bottom: 70px;
+}

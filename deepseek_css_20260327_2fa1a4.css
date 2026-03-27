@@ -1,0 +1,90 @@
+/* src/components/home/PopularServices.css */
+.popular-section {
+    padding: 0 16px;
+    margin-bottom: 24px;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: flex;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.service-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.service-info {
+    flex: 1;
+    padding: 12px;
+}
+
+.service-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 6px;
+}
+
+.service-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 6px;
+}
+
+.rating-star {
+    color: #fbbf24;
+    font-size: 14px;
+}
+
+.rating-value {
+    font-weight: 600;
+    color: #374151;
+    font-size: 14px;
+}
+
+.rating-count {
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.service-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 8px;
+}
+
+.book-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.book-btn:hover {
+    background: #1d4ed8;
+}
